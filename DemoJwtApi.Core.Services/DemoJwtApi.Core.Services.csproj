@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoJwtApi.Core.Builder\DemoJwtApi.Core.Builder.csproj" />
+    <ProjectReference Include="..\DemoJwtApi.Core.Contract\DemoJwtApi.Core.Contract.csproj" />
+    <ProjectReference Include="..\DemoJwtApi.Core.Domain\DemoJwtApi.Core.Domain.csproj" />
+    <ProjectReference Include="..\DemoJwtApi.Infra.Contract\DemoJwtApi.Infra.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
